@@ -1,5 +1,6 @@
 ---
-title: "Does Fibromuscular Dysplasia Cause Chronic Kidney Disease? A Two-Sample Mendelian Randomization Study"
+title: "Does Fibromuscular Dysplasia Cause Chronic Kidney Disease?"
+subtitle: "A Two-Sample Mendelian Randomization Study"
 date: "July 16, 2024"
 date-format: full
 author: "Fred Boehm (frederick.boehm@gmail.com)"
