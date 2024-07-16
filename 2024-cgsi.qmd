@@ -1,0 +1,172 @@
+---
+title: "Does Fibromuscular Dysplasia Cause Chronic Kidney Disease? A Two-Sample Mendelian Randomization Study"
+date: "April 1, 2024"
+date-format: full
+author: "Fred Boehm (frederick.boehm@gmail.com)"
+bibliography: my.bib
+format: revealjs
+embed-resources: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        font-size: 1.5em;
+        color: #b22222;
+      }
+      </style>
+---
+
+
+## Introduction
+
+- Statistics Ph.D., M.D.  
+- Expertise in statistics & genetics  
+- Postdoctoral fellow (July 2023 to June 2024)  
+- Research fellowship in *translational* biostatistics 
+- Career goals include research in statistical genetics & applications to clinical medicine & public health  
+
+
+
+## Overview  
+
+
+- Fibromuscular dysplasia (FMD) prevalence: ~ 3% [@rana2021prevalence]  
+- Women are 85% to 90% of cases  [@kim2013clinical]
+- Genome-wide association studies (GWAS) have identified variants that associate with FMD [@georges2021genetic]  
+- Two-Sample Mendelian Randomization (MR) uses GWAS results to estimate a causal effect, subject to assumptions  
+
+
+## FMD 
+
+- FMD affects artery walls  
+- Diagnosed with angiography, but may be overlooked in clinical practice    
+- Prevalence (U.S.A.): ~ 3%   
+- Women are 85% to 90% of cases  
+
+
+<!-- ganesh lab FMD artery figure here -->
+
+![](Fibromuscular.png)
+
+
+## Chronic Kidney Disease (CKD)
+
+- About one in ten people have CKD  
+- Affected ~ 16% of Americans aged 20+ in 1999 to 2004  
+- Causes and prevalences differ by ancestry  
+- Genome-wide association studies have revealed some genetic variants that affect CKD  
+
+
+
+## FMD & CKD  
+
+- FMD is the second-most common abnormality of renal arteries [@van2018renal]  
+- FMD prevalence among potential kidney donors: 2% to 6% 
+
+
+## Mendelian Randomization: Big Picture
+
+- Major goal of biomedical research is to identify causes of diseases  
+- Randomized controlled trials are a *gold standard* for causal conclusions  
+- Confounding plagues observational studies that seek causal inferences  
+- Germline genotypes are randomly assigned at meiosis  
+- MR as "Nature's randomized controlled trial"  
+
+
+
+
+## Mendelian Randomization: A Method for Assessing Causal Relationships 
+
+**Three Key Assumptions**:
+
+1. SNPs associate with Exposure  
+1. No common causes of SNPs and Outcome  
+1. No Exposure-independent path between SNPs and Outcome  
+
+- FMD is Exposure  
+- CKD is Outcome  
+
+
+
+## Mendelian Randomization: A Method for Assessing Causal Relationships 
+
+
+
+![](Mendelian-Randomization-unbiased-causal-associations-and-assumptions-Mendelian.png)
+
+
+
+<p style="font-size: xx-small; ">  
+Causal association between mTOR-dependent EIF-4E and EIF-4A circulating protein levels and type 2 diabetes: a Mendelian randomization study - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Mendelian-Randomization-unbiased-causal-associations-and-assumptions-Mendelian_fig5_344407603 [accessed 31 Mar, 2024]
+</p>
+
+
+## FMD & CKD: MR Inputs    
+
+
+- Need GWAS Summary Statistics for FMD & CKD (with no subject overlap)
+- FMD GWAS summary statistics [@georges2021genetic]   
+- UK Biobank CKD GWAS summary statistics (women only) [@neale-gwas]   
+- Choose a set of SNPs based on associations with FMD (p-value threshold: $10^{-8}$)  
+
+
+## FMD & CKD: Results  
+
+
+![](fmd-ckd-ukb-women-only-mr-results.png)
+
+
+## FMD & CKD: Results 
+
+| Method | slope | se | pvalue |  
+| ------ | ----- | -- | ------ |
+| MR Egger | 0.003 | 0.002 | 0.38 |
+| Weighted Median | 0.0002 | 0.0002 | 0.54 |
+| Inverse Variance Weighted | - 0.0001 | 0.0004 | 0.77 |
+| Simple Mode | 0.0002 | 0.0003 | 0.60 |
+| Weighted Mode | 0.0002 | 0.0003 | 0.50 | 
+
+
+- *Statistical power is presumably weak here*
+
+
+
+
+## Summary & Next Steps  
+
+
+- No evidence of causal relationship between FMD and CKD (but statistical power!)  
+- Further sensitivity analyses are needed to quantify effects of possible biases   
+- Consider other sets of SNPs with different p-value thresholds   
+
+
+
+
+
+
+## Acknowledgments
+
+- Ganesh Laboratory, including Santhi Ganesh, Kristy Hunker, Min-Lee Yang, Trisha Gupte, and Sayhaan Goraya 
+- Xiang Zhou & Chang Xu   
+- Cardiovascular Medicine Training Grant (NIH T32-HL007853)  
+
+
+## Thank you! 
+
+- Fred Boehm: frederick.boehm@gmail.com  https://fboehm.us 
+
+<!-- Insert QR code for Google survey -->
+
+**Please take the survey!**
+
+https://forms.gle/tJ96F5caqandCBmr7
+
+![](Untitled.png)
+
+
+## References
+
+
+
+
+
