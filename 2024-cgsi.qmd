@@ -1,6 +1,6 @@
 ---
 title: "Does Fibromuscular Dysplasia Cause Chronic Kidney Disease? A Two-Sample Mendelian Randomization Study"
-date: "April 1, 2024"
+date: "July 16, 2024"
 date-format: full
 author: "Fred Boehm (frederick.boehm@gmail.com)"
 bibliography: my.bib
@@ -17,13 +17,6 @@ include-in-header:
 ---
 
 
-## Introduction
-
-- Statistics Ph.D., M.D.  
-- Expertise in statistics & genetics  
-- Postdoctoral fellow (July 2023 to June 2024)  
-- Research fellowship in *translational* biostatistics 
-- Career goals include research in statistical genetics & applications to clinical medicine & public health  
 
 
 
@@ -79,7 +72,7 @@ include-in-header:
 
 **Three Key Assumptions**:
 
-1. SNPs associate with Exposure  
+1. SNP instruments associate with Exposure  
 1. No common causes of SNPs and Outcome  
 1. No Exposure-independent path between SNPs and Outcome  
 
@@ -153,15 +146,13 @@ Causal association between mTOR-dependent EIF-4E and EIF-4A circulating protein 
 
 ## Thank you! 
 
-- Fred Boehm: frederick.boehm@gmail.com  https://fboehm.us 
+  Fred Boehm: frederick.boehm@gmail.com  
+  
+  https://fboehm.us/
+  
+  https://github.com/fboehm/2024-cgsi-ucla/
 
-<!-- Insert QR code for Google survey -->
 
-**Please take the survey!**
-
-https://forms.gle/tJ96F5caqandCBmr7
-
-![](Untitled.png)
 
 
 ## References
