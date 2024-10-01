@@ -1,0 +1,108 @@
+---
+title: "Biobank-Scale Genotype-phenotype Associations & Further Analyses"
+subtitle: "CGSI Fall Kickoff Meeting"
+date: "October 1, 2024"
+date-format: full
+author: "Fred Boehm (Frederick.Boehm@sdstate.edu)"
+bibliography: my.bib
+format: revealjs
+title-slide-attributes: 
+  data-footer: "CC BY-SA"
+footer: "Fred Boehm (South Dakota State University) -- Email: Frederick.Boehm@sdstate.edu --  https://fboehm.us/ -- https://github.com/fboehm/"
+embed-resources: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        font-size: 1.5em;
+        color: #b22222;
+      }
+      </style>
+---
+
+
+## About fred
+
+- New assistant professor of statistics at South Dakota State University (August 2024 start)  
+- Ph.D. in Statistics & M.D. from University of Wisconsin-Madison  
+- Building a research program in statistical genetics and genomics  
+- Email: <Frederick.Boehm@sdstate.edu>  
+- Website: [fboehm.us](https://fboehm.us/)  
+
+
+
+## Research Interests
+
+- Biobank-scale statistical & computational methods:   
+      - Disease risk scores  
+      - Causal inference: mendelian randomization and related methods    
+      - Computationally efficient variational bayes methods  
+      - Open source software products  
+- Seeking collaborations with biologists, geneticists, computer scientists, clinicians and others with cool data  
+
+
+
+## Example Project ideas 
+
+- Variational bayes & polygenic risk scores  
+- Joint modeling of longitudinal and time-to-event data for genetic association studies  
+- Deep learning to infer trait values (eg., from biobank imaging data) for use in genetic association studies  
+
+
+## Variational Bayes & Polygenic Risk Scores
+
+- Nick Mancuso's CGSI 2024 retreat presentation: "Variational Inference for Fun and Profit"  
+- Variational Bayes (VB) is a computationally efficient alternative to MCMC  
+
+
+## Variational Bayes & Polygenic Risk Scores
+
+- With `ldpred2` (using MCMC sampling for posterior inference), PRS calculations are often limited to ~1 million SNPs due to computational costs  
+- Extend ideas from VIPRS (Zabad, et al. 2023, AJHG): multitrait PRS, PRS for rare variants, and others  
+- Integrate resulting PRS with other risk scores (from epidemiology and 'omics) to predict disease risk  
+
+
+## Joint Modeling of Longitudinal and Time-to-Event Data for Genetic Association Studies
+
+- Longitudinal data: repeated measures of a trait over time  
+- Time-to-event data: time until an event occurs  
+- Joint models combine these data types to estimate genetic effects on both the trait and the event  
+- Adapt statistical methods from biomarker literature
+  
+
+## Joint Modeling of Longitudinal and Time-to-Event Data for Genetic Association Studies
+
+- Two models: one for longitudinal data, one for time-to-event data  
+- Longitudinal model: mixed effects model  
+- Time-to-event model: Weibull model  
+- Joint model: shared random effects between the two models  
+
+
+## Deep Learning to Infer Trait Values for Genetic Association Studies
+
+- Infer trait values from images, text, and other data types  
+- Example: Fibromuscular dysplasia: prevalence thought to be about 5% 
+    - Largest genetic FMD study to date: about 1000 cases  
+    - Definitive diagnosis via angiography  
+    - Some biobanks have angiography images on thousands of subjects  
+
+
+
+## Please reach out to collaborate or discuss ideas  
+
+
+
+  Fred Boehm: Frederick.Boehm@sdstate.edu 
+  
+  https://fboehm.us/
+  
+  https://github.com/fboehm/
+
+
+
+
+
+
+
+
+
